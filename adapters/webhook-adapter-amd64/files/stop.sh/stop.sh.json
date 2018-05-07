@@ -1,0 +1,9 @@
+{
+    "adaptor_name": "webhook-adapter-amd64",
+    "group": "",
+    "name": "stop.sh",
+    "owner": "",
+    "path_name": "stop.sh",
+    "permissions": "",
+    "version": 5
+}
