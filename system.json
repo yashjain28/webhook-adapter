@@ -1,0 +1,27 @@
+{
+    "auth": true,
+    "deployments": [
+        {
+            "assets": [
+                {
+                    "asset_class": "adaptors",
+                    "asset_id": "webhook-adapter-amd64",
+                    "deployment": "webhook-adapter-amd64-deploy",
+                    "member": "webhook-adapter-amd64-deploy_deployment_edge_group",
+                    "sync": false
+                }
+            ],
+            "description": "",
+            "edges": [
+                "Edge1"
+            ],
+            "name": "webhook-adapter-amd64-deploy"
+        }
+    ],
+    "description": "",
+    "messaging_url": "staging.clearblade.com:1883",
+    "name": "webhook-adapter",
+    "platform_url": "https://staging.clearblade.com",
+    "system_key": "c0c4d9ae0ba0cfc6b8f9b9a4be0d",
+    "system_secret": "C0C4D9AE0B90F987C7F7C7C9841A"
+}
