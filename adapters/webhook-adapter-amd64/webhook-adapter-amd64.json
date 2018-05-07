@@ -1,0 +1,14 @@
+{
+    "architecture": "linux64amd",
+    "deploy_command": "",
+    "description": "",
+    "logs_command": "cat webhook-adapter.log",
+    "name": "webhook-adapter-amd64",
+    "os": "",
+    "protocol": "",
+    "start_command": "./start.sh \u003cplatformURL\u003e \u003cmessagingURL\u003e webhook-adapter clearblade \u003clistenPort\u003e \u003csystemKey\u003e \u003csystemSecret\u003e",
+    "status_command": "./status.sh",
+    "stop_command": "./stop.sh",
+    "undeploy_command": "",
+    "version": 86
+}
