@@ -2,12 +2,12 @@ function webadaSetup(req, resp){
     
     const DEFAULT_USERS = [{
         // User Credentials for the default Portal Viewer User
-        email: "user@clearblade.com",
+        email: "webada_user@clearblade.com",
         password: "clearblade", // recommended to change this to something unique
         roles: ["webada Portal Viewer"]
     }, {
         // User Credentials for the default Portal Editor User
-        email: "editor@clearblade.com",
+        email: "webada_editor@clearblade.com",
         password: "clearblade", // recommended to change this to something unique
         roles: ["webada Portal Editor"]
     }];
