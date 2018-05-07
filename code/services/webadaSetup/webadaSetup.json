@@ -1,0 +1,10 @@
+{
+    "current_version": 52,
+    "dependencies": "webada_constants,webada_setup_assistant,clearblade,log",
+    "logging_enabled": "true",
+    "name": "webadaSetup",
+    "params": [],
+    "permissions": {},
+    "run_user": "",
+    "source": "webadaSetup.js"
+}
