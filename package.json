@@ -1,0 +1,36 @@
+{
+    "author": {
+        "email": "msprague@clearblade.com"
+    },
+    "clouds": [],
+    "description": "Example system for leveraging the ClearBlade webhook-adapter to easily update a device from an external application.",
+    "domains": [],
+    "gateways": [],
+    "image_url": "https://i.imgur.com/GUOYchU.png",
+    "keywords": [
+        "clearblade",
+        "iot",
+        "platform",
+        "webhook",
+        "adapter",
+        "http",
+        "https",
+        "device-update",
+        "custom-applications",
+        "external-integration",
+        "webhook-adapter",
+        "edge",
+        "edge-compute"
+    ],
+    "license": "MIT",
+    "name": "webhook-adapter",
+    "private": false,
+    "prog_lang": [],
+    "protocols": [
+        "webhook",
+        "http",
+        "https"
+    ],
+    "things": [],
+    "version": "1.0.0"
+}
