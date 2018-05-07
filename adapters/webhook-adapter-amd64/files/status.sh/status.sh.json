@@ -1,0 +1,9 @@
+{
+    "adaptor_name": "webhook-adapter-amd64",
+    "group": "",
+    "name": "status.sh",
+    "owner": "",
+    "path_name": "status.sh",
+    "permissions": "",
+    "version": 6
+}
