@@ -1,0 +1,9 @@
+{
+    "columns": [
+        {
+            "ColumnName": "temperature",
+            "ColumnType": "double",
+            "PK": false
+        }
+    ]
+}
