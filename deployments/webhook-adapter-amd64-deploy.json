@@ -1,0 +1,16 @@
+{
+    "assets": [
+        {
+            "asset_class": "adaptors",
+            "asset_id": "webhook-adapter-amd64",
+            "deployment": "webhook-adapter-amd64-deploy",
+            "member": "webhook-adapter-amd64-deploy_deployment_edge_group",
+            "sync": false
+        }
+    ],
+    "description": "",
+    "edges": [
+        "Edge1"
+    ],
+    "name": "webhook-adapter-amd64-deploy"
+}
