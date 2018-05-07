@@ -1,0 +1,53 @@
+{
+    "Description": "",
+    "ID": "eac7dbae0be4e8c3998dc7da954a",
+    "Name": "webada Portal Viewer",
+    "Permissions": {
+        "AllCollections": {
+            "Level": 0
+        },
+        "AllServices": {
+            "Level": 0
+        },
+        "CodeServices": [
+            {
+                "Level": 1,
+                "Name": "webadaGetHistory",
+                "SystemKey": "c0c4d9ae0ba0cfc6b8f9b9a4be0d"
+            }
+        ],
+        "Collections": [],
+        "Deployments": {
+            "Level": 0
+        },
+        "DevicesList": {
+            "Level": 0
+        },
+        "EdgesList": {
+            "Level": 0
+        },
+        "MsgHistory": {
+            "Level": 9
+        },
+        "Portals": [
+            {
+                "Level": 1,
+                "Name": "webada Incoming Webhooks",
+                "SystemKey": "c0c4d9ae0ba0cfc6b8f9b9a4be0d"
+            }
+        ],
+        "Push": {
+            "Level": 0
+        },
+        "Timers": {
+            "Level": 0
+        },
+        "Topics": [],
+        "Triggers": {
+            "Level": 0
+        },
+        "UsersList": {
+            "Level": 0
+        }
+    }
+}
