@@ -1,0 +1,13 @@
+{
+    "description": "",
+    "last_seen_version": "4.0-rc3",
+    "location": null,
+    "mac_address": null,
+    "name": "Edge1",
+    "policy_name": null,
+    "resolver_func": null,
+    "sync_edge_tables": null,
+    "system_key": "c0c4d9ae0ba0cfc6b8f9b9a4be0d",
+    "system_secret": "C0C4D9AE0B90F987C7F7C7C9841A",
+    "token": "0066w073892C92Br0Uk6580161U228y"
+}
