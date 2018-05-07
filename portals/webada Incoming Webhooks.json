@@ -1,0 +1,595 @@
+{
+    "config": {
+        "cols": {
+            "lg": 12,
+            "md": 10,
+            "sm": 6,
+            "xs": 4,
+            "xxs": 2
+        },
+        "currentBreakpointForFlyoutWidgets": "lg",
+        "currentBreakpointForPanes": "lg",
+        "currentBreakpointsForWidgets": {
+            "93486777-a9c4-4d43-81a4-5f7aa9c35c4c": "lg",
+            "fc465623-71f3-46b3-b5ac-cca3d9614ea0": "lg"
+        },
+        "datasources": {
+            "28e10deb-7033-4a40-8db6-a538dd40de0c": {
+                "id": "28e10deb-7033-4a40-8db6-a538dd40de0c",
+                "name": "webhook-adapter",
+                "settings": {
+                    "CALL_ON_LOAD": true,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "TOPIC_NAME": "webhook-adapter/received"
+                },
+                "type": "CB_MESSAGE_TOPIC"
+            },
+            "47c082d1-fc25-48ba-8b5f-e7622f93ae77": {
+                "id": "47c082d1-fc25-48ba-8b5f-e7622f93ae77",
+                "name": "selectedRequest",
+                "settings": {
+                    "defaultValue": "null"
+                },
+                "type": "LOCAL_DATASOURCE_PLUGIN"
+            }
+        },
+        "externalScripts": [
+            {
+                "promise": {},
+                "shouldBlockAllWidgets": true,
+                "url": "https://use.fontawesome.com/releases/v5.0.10/js/all.js"
+            }
+        ],
+        "flyoutWidgetLayout": {
+            "lg": [],
+            "md": [],
+            "sm": [],
+            "xs": [],
+            "xxs": []
+        },
+        "headerWidgetLayout": {
+            "lg": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 42,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 46,
+                    "x": 185,
+                    "y": 0
+                }
+            ],
+            "md": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 36,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 39,
+                    "x": 154,
+                    "y": 0
+                }
+            ],
+            "sm": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 34,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 37,
+                    "x": 117,
+                    "y": 0
+                }
+            ],
+            "xs": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 28,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 31,
+                    "x": 71,
+                    "y": 0
+                }
+            ],
+            "xxs": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 32,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 33,
+                    "x": 47,
+                    "y": 0
+                }
+            ]
+        },
+        "pages": {
+            "Home": {
+                "children": [],
+                "defaultValue": "",
+                "href": "",
+                "id": "Home",
+                "isChild": false,
+                "isParam": false,
+                "name": "Home",
+                "path": ""
+            }
+        },
+        "paneGridWidgetLayouts": {
+            "93486777-a9c4-4d43-81a4-5f7aa9c35c4c": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "320c3fd5-8ab0-4c4a-a0a8-6c2b26e2a270",
+                        "minH": 3,
+                        "w": 4,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "fc465623-71f3-46b3-b5ac-cca3d9614ea0": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "d613419b-37cb-45ea-b486-9f9bee7c93b6",
+                        "minH": 3,
+                        "w": 1,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            }
+        },
+        "paneLayouts": {
+            "Home": {
+                "lg": [
+                    {
+                        "h": 6,
+                        "i": "d19b2e19-04e5-40a8-b3d4-9d2e8a7159ed",
+                        "moved": false,
+                        "static": false,
+                        "w": 9,
+                        "x": 3,
+                        "y": 0
+                    },
+                    {
+                        "h": 6,
+                        "i": "1485596e-aca0-498b-8e3f-9dc3c6101df3",
+                        "moved": false,
+                        "static": false,
+                        "w": 3,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            }
+        },
+        "panes": {
+            "1485596e-aca0-498b-8e3f-9dc3c6101df3": {
+                "customPaneId": "",
+                "header": {
+                    "hide": true,
+                    "title": ""
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "1485596e-aca0-498b-8e3f-9dc3c6101df3",
+                "pageId": "Home",
+                "tabInfo": {
+                    "activeTab": "93486777-a9c4-4d43-81a4-5f7aa9c35c4c",
+                    "tabIds": [
+                        "93486777-a9c4-4d43-81a4-5f7aa9c35c4c"
+                    ],
+                    "tabTitles": {
+                        "93486777-a9c4-4d43-81a4-5f7aa9c35c4c": "DOUBLE CLICK"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            },
+            "d19b2e19-04e5-40a8-b3d4-9d2e8a7159ed": {
+                "customPaneId": "",
+                "header": {
+                    "hide": true,
+                    "title": ""
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "d19b2e19-04e5-40a8-b3d4-9d2e8a7159ed",
+                "pageId": "Home",
+                "tabInfo": {
+                    "activeTab": "fc465623-71f3-46b3-b5ac-cca3d9614ea0",
+                    "tabIds": [
+                        "fc465623-71f3-46b3-b5ac-cca3d9614ea0"
+                    ],
+                    "tabTitles": {
+                        "fc465623-71f3-46b3-b5ac-cca3d9614ea0": "DOUBLE CLICK"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            }
+        },
+        "savedPortalExists": true,
+        "theme": {
+            "graph": {
+                "four": "#E8E7C6",
+                "one": "#6E8592",
+                "three": "#DBA5A8",
+                "two": "#6E93A8"
+            },
+            "info": {
+                "display_name": "Standard",
+                "name": "STANDARD_THEME"
+            },
+            "items": {
+                "main": {
+                    "header": {
+                        "burgerBars": {
+                            "fontColor": "#f5f5f5"
+                        },
+                        "dropdown": {
+                            "fontColor": "#f5f5f5",
+                            "fontFamily": "Helvetica",
+                            "fontSize": 18
+                        },
+                        "styles": {
+                            "backgroundColor": "#6e8592"
+                        }
+                    },
+                    "panes": {
+                        "flyout": {
+                            "body": {
+                                "backgroundColor": "#f5f5f5"
+                            },
+                            "header": {
+                                "backgroundColor": "#6e8592"
+                            }
+                        },
+                        "primary": {
+                            "body": {
+                                "backgroundColor": "#f5f5f5"
+                            },
+                            "header": {
+                                "backgroundColor": "#6e8592"
+                            },
+                            "tabs": {
+                                "activeTabUnderlineColor": "#425864",
+                                "backgroundColor": "#9db5c2",
+                                "fontColor": "#000000"
+                            }
+                        },
+                        "secondary": {
+                            "body": {
+                                "backgroundColor": "#f5f5f5"
+                            },
+                            "header": {
+                                "backgroundColor": "#9db5c2"
+                            },
+                            "tabs": {
+                                "activeTabUnderlineColor": "#425864",
+                                "backgroundColor": "#6e8592",
+                                "fontColor": "#000000"
+                            }
+                        }
+                    },
+                    "portal": {
+                        "styles": {
+                            "backgroundColor": "#ffffff"
+                        }
+                    },
+                    "widgets": {
+                        "BAR_CHART_WIDGET_COMPONENT": {
+                            "barColors": [
+                                {
+                                    "fill": "#6E8592"
+                                },
+                                {
+                                    "fill": "#6E93A8"
+                                },
+                                {
+                                    "fill": "#DBA5A8"
+                                },
+                                {
+                                    "fill": "#E8E7C6"
+                                }
+                            ],
+                            "brushStroke": "#6e8592",
+                            "legendColor": "#000000"
+                        },
+                        "BUTTON_WIDGET_COMPONENT": {
+                            "backgroundColor": "#f5f5f5",
+                            "backgroundHoverColor": "#c2c2c2",
+                            "borderColor": "#cccccc",
+                            "fontColor": "#000000"
+                        },
+                        "FILTERABLE_LIST_WIDGET_COMPONENT": {
+                            "activeFontColor": "#000000",
+                            "activeItemBackgroundColor": "#6e8592",
+                            "fontColor": "#000000",
+                            "listItemBackgroundColor": "#ffffff",
+                            "titleColor": "#000000"
+                        },
+                        "FORM_WIDGET_COMPONENT": {
+                            "cardBackgroundColor": "#f5f5f5",
+                            "fontColor": "#000000",
+                            "sliderColor": "#6E8592",
+                            "titleColor": "#000000",
+                            "toggleColor": "#6E8592"
+                        },
+                        "GOOGLE_MAP_WIDGET_COMPONENT": {
+                            "mapTheme": ""
+                        },
+                        "GROUPING_LIST_WIDGET_COMPONENT": {
+                            "activeFontColor": "#000000",
+                            "activeItemBackgroundColor": "#6e8592",
+                            "fontColor": "#000000",
+                            "listItemBackgroundColor": "#ffffff",
+                            "titleColor": "#000000"
+                        },
+                        "LINE_CHART_WIDGET_COMPONENT": {
+                            "brushStroke": "#6e8592",
+                            "legendColor": "#000000",
+                            "lineColors": [
+                                {
+                                    "stroke": "#6E8592"
+                                },
+                                {
+                                    "stroke": "#6E93A8"
+                                },
+                                {
+                                    "stroke": "#DBA5A8"
+                                },
+                                {
+                                    "stroke": "#E8E7C6"
+                                }
+                            ]
+                        },
+                        "LIST_WIDGET_COMPONENT": {
+                            "activeFontColor": "#000000",
+                            "activeItemBackgroundColor": "#6e8592",
+                            "fontColor": "#000000",
+                            "listItemBackgroundColor": "#ffffff",
+                            "titleColor": "#000000"
+                        },
+                        "PIE_CHART_WIDGET_COMPONENT": {
+                            "cells": [
+                                {
+                                    "fill": "#6E8592"
+                                },
+                                {
+                                    "fill": "#6E93A8"
+                                },
+                                {
+                                    "fill": "#DBA5A8"
+                                },
+                                {
+                                    "fill": "#E8E7C6"
+                                }
+                            ]
+                        },
+                        "RADIAL_GAUGE_WIDGET_COMPONENT": {
+                            "backgroundColor": "#c2c2c2",
+                            "progressColor": "#6e8592"
+                        },
+                        "SPEEDOMETER_WIDGET": {
+                            "arrowColor": "#000000",
+                            "sectionColors": [
+                                {
+                                    "fill": "#6E8592"
+                                },
+                                {
+                                    "fill": "#6E93A8"
+                                },
+                                {
+                                    "fill": "#DBA5A8"
+                                },
+                                {
+                                    "fill": "#E8E7C6"
+                                }
+                            ]
+                        },
+                        "TEXT_WIDGET_COMPONENT": {
+                            "fontColor": "#000000",
+                            "fontFamily": "Helvetica",
+                            "fontSize": 18
+                        },
+                        "TOGGLE_WIDGET": {
+                            "backgroundColor": "#c2c2c2",
+                            "fontColor": "#000000",
+                            "offColor": "#ffffff",
+                            "onColor": "#6e8592"
+                        }
+                    }
+                }
+            },
+            "palette": {
+                "darkPrimary": "#c2c2c2",
+                "darkSecondary": "#425864",
+                "defaultPrimary": "#f5f5f5",
+                "defaultSecondary": "#6e8592",
+                "lightPrimary": "#ffffff",
+                "lightSecondary": "#9db5c2",
+                "primaryText": "#000000",
+                "secondaryText": "#000000"
+            }
+        },
+        "upgradesPerformed": {
+            "flyoutTitleUpgrade": true,
+            "headerBrandUpgrade": true,
+            "headerTitleUpgrade": true,
+            "widgetResizeUpgrade": true
+        },
+        "widgets": {
+            "320c3fd5-8ab0-4c4a-a0a8-6c2b26e2a270": {
+                "externalScripts": [
+                    "https://use.fontawesome.com/releases/v5.0.10/js/all.js"
+                ],
+                "id": "320c3fd5-8ab0-4c4a-a0a8-6c2b26e2a270",
+                "props": {
+                    "html": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "28e10deb-7033-4a40-8db6-a538dd40de0c",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": {
+                                "CSS": ".incoming-requests {\n  color: gray;\n}\n\n.incoming-requests .title {\n  font-size: 18px;\n  font-weight: bold;\n}\n\n.new-request-container {\n  padding: 10px;\n  margin: 10px;\n  border-radius: 5px;\n  background-color: lightgray;\n}\n\n.request-time {\n  float: right;\n}\n\n.selected {\n  color: white;\n  background-color: darkgray;\n}",
+                                "HTML": "\u003cdiv class=\"incoming-requests\"\u003e\n  \u003cdiv class=\"title\"\u003eINCOMING REQUESTS\u003c/div\u003e\n  \u003cdiv class=\"request-list\" id=\"requestList\"\u003e\n    \n  \u003c/div\u003e\n\u003c/div\u003e\n",
+                                "JavaScript": "//JavaScript\n\nif (this.datasource) {\n    var incomingRequest = JSON.parse(this.datasource);\n    var newRequestContainer = document.createElement(\"div\");\n    newRequestContainer.classList.add(\"new-request-container\");\n    newRequestContainer[\"data-request-obj\"] = this.datasource; \n    newRequestContainer.onclick = function (requestObj, evt) {\n        var requestContainer;\n        if (evt.target.classList.contains(\"new-request-container\")) {\n            requestContainer = evt.target;\n        } else {\n            requestContainer = evt.target.parentNode;\n        }\n        if (window.lastSelectedRequest) {\n            window.lastSelectedRequest.classList.remove(\"selected\");\n        }\n        requestContainer.classList.add(\"selected\");\n        CB_PORTAL.portalModel.getDatasourceInstancesWithNameAsKey().selectedRequest.sendData(requestObj);\n        window.lastSelectedRequest = requestContainer;\n    }.bind(this, incomingRequest);\n    var urlContainer = document.createElement(\"div\");\n    urlContainer.classList.add(\"request-url\");\n    urlContainer.innerText = incomingRequest.request_url.indexOf(\"?\") \u003e -1 ? incomingRequest.request_url.substring(0, incomingRequest.request_url.indexOf(\"?\")) : incomingRequest.request_url;\n    newRequestContainer.appendChild(urlContainer);\n    var timeContainer = document.createElement(\"div\");\n    timeContainer.classList.add(\"request-time\");\n    timeContainer.innerText = new Date(incomingRequest.time_received).toLocaleString();\n    newRequestContainer.appendChild(timeContainer);\n    var requestTypeContainer = document.createElement(\"div\");\n    requestTypeContainer.classList.add(\"request-type\");\n    requestTypeContainer.innerText = incomingRequest.method;\n    newRequestContainer.appendChild(requestTypeContainer);\n    var requestList = document.getElementById(\"requestList\");\n    requestList.insertBefore(newRequestContainer, requestList.firstChild);\n}"
+                            }
+                        }
+                    }
+                },
+                "tab": "93486777-a9c4-4d43-81a4-5f7aa9c35c4c",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "brand": {
+                "externalScripts": [
+                    "https://use.fontawesome.com/releases/v5.0.10/js/all.js"
+                ],
+                "id": "brand",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "fontColor": "#fff",
+                    "fontFamily": "Helvetica",
+                    "fontSize": 18,
+                    "textContent": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "value": "ClearBlade"
+                    }
+                },
+                "tab": "HEADER",
+                "type": "TEXT_WIDGET_COMPONENT"
+            },
+            "d613419b-37cb-45ea-b486-9f9bee7c93b6": {
+                "externalScripts": [
+                    "https://use.fontawesome.com/releases/v5.0.10/js/all.js"
+                ],
+                "id": "d613419b-37cb-45ea-b486-9f9bee7c93b6",
+                "props": {
+                    "html": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "47c082d1-fc25-48ba-8b5f-e7622f93ae77",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": {
+                                "CSS": ".request-details {\n  color: gray;\n}\n\n.request-details .title {\n  font-size: 20px;\n  font-weight: bold;\n}\n\n.label {\n  font-weight: bold;\n}\n\n.value {\n  font-weight: lighter;\n}\n\n.no-request-selected {\n  margin-top: 50px;\n  text-align: center;\n}\n\n.hidden {\n  display: none;\n}",
+                                "HTML": "\u003cdiv class=\"request-details\"\u003e\n  \u003cdiv class=\"title\"\u003eDETAILS\u003c/div\u003e\n  \u003cdiv class=\"details-container hidden\" id=\"requestDetails\"\u003e\n    \u003cdiv class=\"url-container\"\u003e\n      \u003ci class=\"fa fa-link\"\u003e\u003c/i\u003e\n      \u003cspan class=\"label\"\u003e\n        URL\n      \u003c/span\u003e\n      \u003cdiv class=\"value\" id=\"urlValue\"\u003e\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"time-container\"\u003e\n      \u003ci class=\"fa fa-clock\"\u003e\u003c/i\u003e\n      \u003cspan class=\"label\"\u003e\n        Time\n      \u003c/span\u003e\n      \u003cdiv class=\"value\" id=\"timeValue\"\u003e\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"request-type-container\"\u003e\n      \u003ci class=\"fa fa-inbox\"\u003e\u003c/i\u003e\n      \u003cspan class=\"label\"\u003e\n        Method\n      \u003c/span\u003e\n      \u003cdiv class=\"value\" id=\"methodValue\"\u003e\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"query-params-container\"\u003e\n      \u003ci class=\"fa fa-search\"\u003e\u003c/i\u003e\n      \u003cspan class=\"label\"\u003e\n        Query Parameters\n      \u003c/span\u003e\n      \u003cdiv class=\"value\" id=\"queryParamsValue\"\u003e\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"headers-container\"\u003e\n      \u003ci class=\"fa fa-list-alt\"\u003e\u003c/i\u003e\n      \u003cspan class=\"label\"\u003e\n        Headers\n      \u003c/span\u003e\n      \u003cdiv class=\"value\" id=\"headersValue\"\u003e\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"body-container\"\u003e\n      \u003ci class=\"fa fa-bars\"\u003e\u003c/i\u003e\n      \u003cspan class=\"label\"\u003e\n        Body\n      \u003c/span\u003e\n      \u003cdiv class=\"value\" id=\"bodyValue\"\u003e\u003c/div\u003e\n    \u003c/div\u003e\n  \u003c/div\u003e\n  \u003cdiv class=\"no-request-selected\" id=\"noRequestSelected\"\u003e\n    Please select a request form the list on the left to view it's full details\n  \u003c/div\u003e\n\u003c/div\u003e\n",
+                                "JavaScript": "//JavaScript\n\nif (this.datasource) {\n    var requestDetails = document.getElementById(\"requestDetails\");\n    document.getElementById(\"urlValue\").innerText = this.datasource.request_url.substring(\"?\") \u003e -1 ? this.datasource.request_url.substring(0, this.datasource.request_url.indexOf(\"?\")) : this.datasource.request_url;\n    document.getElementById(\"timeValue\").innerText = new Date(this.datasource.time_received).toLocaleString();\n    document.getElementById(\"methodValue\").innerText = this.datasource.method;\n    if (Object.keys(this.datasource.url_params).length === 0 \u0026\u0026 this.datasource.url_params.constructor === Object) {\n        document.getElementById(\"queryParamsValue\").innerText = \"None\";\n    } else {\n        var queryParamsValue = \"\";\n        for (var key in this.datasource.url_params) {\n            queryParamsValue += key + \": \" + this.datasource.url_params[key] + \"\\n\";\n        }\n        document.getElementById(\"queryParamsValue\").innerText = queryParamsValue;\n    }\n    if (Object.keys(this.datasource.headers).length === 0 \u0026\u0026 this.datasource.headers.constructor === Object) {\n        document.getElementById(\"headersValue\").innerText = \"None\";\n    } else {\n        var headersValue = \"\";\n        for (var key in this.datasource.headers) {\n            headersValue += key + \": \" + this.datasource.headers[key] + \"\\n\";\n        }\n        document.getElementById(\"headersValue\").innerText = headersValue;\n    }\n    if (this.datasource.body === \"\") {\n        document.getElementById(\"bodyValue\").innerText = \"None\";\n    } else if (typeof this.datasource.body === \"object\"){\n        document.getElementById(\"bodyValue\").innerText = JSON.stringify(this.datasource.body, null, 2);\n    } else {\n        document.getElementById(\"bodyValue\").innerText = this.datasource.body;\n    }\n    requestDetails.classList.remove(\"hidden\");\n    document.getElementById(\"noRequestSelected\").classList.add(\"hidden\");\n} else {\n    document.getElementById(\"requestDetails\").classList.add(\"hidden\");\n    document.getElementById(\"noRequestSelected\").classList.remove(\"hidden\");\n}"
+                            }
+                        }
+                    }
+                },
+                "tab": "fc465623-71f3-46b3-b5ac-cca3d9614ea0",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "flyoutTitle": {
+                "externalScripts": [
+                    "https://use.fontawesome.com/releases/v5.0.10/js/all.js"
+                ],
+                "id": "flyoutTitle",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "fontColor": "#fff",
+                    "fontFamily": "Helvetica",
+                    "fontSize": 30,
+                    "textContent": {
+                        "dataType": "CALCULATED_DATA_TYPE",
+                        "value": "return portalTitle"
+                    }
+                },
+                "type": "TEXT_WIDGET_COMPONENT"
+            },
+            "title": {
+                "externalScripts": [
+                    "https://use.fontawesome.com/releases/v5.0.10/js/all.js"
+                ],
+                "id": "title",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "fontColor": "#fff",
+                    "fontFamily": "Trebuchet MS",
+                    "fontSize": 18,
+                    "textContent": {
+                        "dataType": "CALCULATED_DATA_TYPE",
+                        "value": "return portalTitle"
+                    }
+                },
+                "tab": "HEADER",
+                "type": "TEXT_WIDGET_COMPONENT"
+            }
+        }
+    },
+    "description": null,
+    "last_updated": "07 May 18 16:49 UTC",
+    "name": "webada Incoming Webhooks",
+    "system_key": "c0c4d9ae0ba0cfc6b8f9b9a4be0d",
+    "type": "custom_v2"
+}
