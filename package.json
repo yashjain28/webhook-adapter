@@ -6,7 +6,7 @@
     "description": "Example system for leveraging the ClearBlade webhook-adapter to easily update a device from an external application.",
     "domains": [],
     "gateways": [],
-    "image_url": "https://i.imgur.com/GUOYchU.png",
+    "image_url": "https://i.imgur.com/cBtNBRX.png",
     "keywords": [
         "clearblade",
         "iot",
