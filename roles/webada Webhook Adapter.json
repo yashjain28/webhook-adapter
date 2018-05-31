@@ -12,7 +12,7 @@
         "CodeServices": [
             {
                 "Level": 1,
-                "Name": "webadaDeviceUpdateViaWebhook",
+                "Name": "WebAdaDeviceUpdateViaWebhook",
                 "SystemKey": "c0c4d9ae0ba0cfc6b8f9b9a4be0d"
             }
         ],

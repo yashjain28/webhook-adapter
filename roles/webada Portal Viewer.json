@@ -12,7 +12,7 @@
         "CodeServices": [
             {
                 "Level": 1,
-                "Name": "webadaGetHistory",
+                "Name": "WebAdaGetHistory",
                 "SystemKey": "c0c4d9ae0ba0cfc6b8f9b9a4be0d"
             }
         ],
@@ -32,7 +32,7 @@
         "Portals": [
             {
                 "Level": 1,
-                "Name": "webada Incoming Webhooks",
+                "Name": "WebAdaIncomingWebhooks",
                 "SystemKey": "c0c4d9ae0ba0cfc6b8f9b9a4be0d"
             }
         ],

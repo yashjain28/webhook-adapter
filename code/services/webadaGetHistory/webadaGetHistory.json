@@ -2,12 +2,12 @@
     "current_version": 8,
     "dependencies": "clearblade",
     "logging_enabled": "false",
-    "name": "webadaGetHistory",
+    "name": "WebAdaGetHistory",
     "params": [],
     "permissions": {
         "webada Portal Editor": 1,
         "webada Portal Viewer": 1
     },
     "run_user": "",
-    "source": "webadaGetHistory.js"
+    "source": "WebAdaGetHistory.js"
 }

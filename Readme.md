@@ -1,4 +1,3 @@
-
 # ipm package: webhook-adapter
 
 ## Overview
@@ -11,8 +10,8 @@ This is an ipm package, which contains one or more reusable assets within the ip
 
 ## Setup
 
-1. Modify the library called webada_constants to include the platform url you are using.
-2. Save and Test the service called webadaSetup to create the webada_user@clearblade.com and webada_editor@clearblade.com example users, as well as the needed adapter device, and an example device to update later on.
+1. Modify the library called WebAdaConstants to include the platform url you are using.
+2. Save and Test the service called WebAdaSetup to create the webada_user@clearblade.com and webada_editor@clearblade.com example users, as well as the needed adapter device, and an example device to update later on.
 3. Update the webhook-adapter-amd64 settings, specifically the Start-up Command, with your platform url, messaging url, listen port, system key, and system secret.
 
 ## Usage
@@ -27,21 +26,81 @@ A few minutes after starting the edge, the webhook-adapter should be up and runn
 curl http://<gateway or VM IP address>:8008/deviceUpdate -X PUT -d '{"device_name":"zone328-temp", "new_value":87.3}'
 ```
 
+
+## Assets
 ### Code Services
-- webadaDeviceUpdateViaWebhook 
-- webadaGetHistory
-- webadaSetup
+* `WebAdaDeviceUpdateViaWebhook` - This service updates device columns. It is triggered by the _WebAdaIncomingWebhookRequest_ trigger.
+* `WebAdaGetHistory` - Gets the message history on the _webhook-adapter/received_ topic
+* `WebAdaSetup` - Setups default Users, Roles and Devices for the system.
 
 ### Code Libraries
-- webada_constants
-- webada_setup_assistant
+
+* `WebAdaConstants` - a constants library, which holds constants specific to this ipm package
+* `WebAdaSetupAssistent` - This library helps setup the environment for user to use this ipm with ease.
 
 ### Code Triggers
-- webadaIncomingWebhookRequest
+* `WebAdaIncomingWebhookRequest` - This trigger activates the service _WebAdaDeviceUpdateViaWebhook_ when a message is published on the topic _webhook-adapter/received_. 
 
 ### Portals
-- webada Incoming Webhooks
+* `WebAdaIncomingWebhooks` - This demo portal displays full details of the incoming requests.
 
-## Thank you
 
-Powered by ClearBlade Enterprise IoT Platform: [https://platform.clearblade.com](https://platform.clearblade.com)
+## API 
+
+### Functions
+
+<dl>
+<dt><a href="#SetupAssistant">SetupAssistant(platformURL, requestObj, users, devices, callback)</a></dt>
+<dd><p>This method helps setup the environment for user to use this ipm with ease.</p>
+</dd>
+</dl>
+
+### Typedefs
+
+<dl>
+<dt><a href="#User">User</a> : <code>Object</code></dt>
+<dd></dd>
+<dt><a href="#callback">callback</a> : <code>function</code></dt>
+<dd><p>This callback is displayed as part of this Library.</p>
+</dd>
+</dl>
+
+<a name="SetupAssistant"></a>
+
+### SetupAssistant(platformURL, requestObj, users, devices, callback)
+This method helps setup the environment for user to use this ipm with ease.
+
+**Kind**: global function  
+
+| Param | Type |
+| --- | --- |
+| platformURL | <code>string</code> | 
+| requestObj | <code>Object</code> | 
+| users | [<code>Array.&lt;User&gt;</code>](#User) | 
+| devices | <code>Array.&lt;Object&gt;</code> | 
+| callback | [<code>callback</code>](#callback) | 
+
+<a name="User"></a>
+
+### User : <code>Object</code>
+**Kind**: global typedef  
+**Properties**
+
+| Name | Type |
+| --- | --- |
+| email | <code>string</code> | 
+| password | <code>string</code> | 
+| roles | <code>Array.&lt;string&gt;</code> | 
+
+<a name="callback"></a>
+
+### callback : <code>function</code>
+This callback is displayed as part of this Library.
+
+**Kind**: global typedef  
+
+| Param | Type |
+| --- | --- |
+| err | <code>Object</code> | 
+| resp | <code>Object</code> | 
+
