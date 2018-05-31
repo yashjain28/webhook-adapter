@@ -1,4 +1,7 @@
-function webadaSetup(req, resp){
+/**
+ * Setups default Users, Roles and Devices for the system.
+ */
+function WebAdaSetup(req, resp){
     
     const DEFAULT_USERS = [{
         // User Credentials for the default Portal Viewer User

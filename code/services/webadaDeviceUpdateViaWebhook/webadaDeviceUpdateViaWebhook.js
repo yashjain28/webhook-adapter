@@ -1,4 +1,10 @@
-function webadaDeviceUpdateViaWebhook(req, resp){
+/**
+ * This service updates device columns. It is triggered by the _WebAdaIncomingWebhookRequest_ trigger.
+ * @param {string} body.device_name - Name of the device whose column needs to be updated
+ * @param {string} body.new_value - New value of the column to which it needs to be updated
+ * @param {string} body.request_url - Request url of the incoming request
+ */
+function WebAdaDeviceUpdateViaWebhook(req, resp){
     const DEVICE_COLUMN_TO_UPDATE = "temperature";
     const URL_SHOULD_CONTAIN_FOR_DEVICE_UPDATE = "deviceUpdate";
 

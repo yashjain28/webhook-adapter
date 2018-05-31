@@ -1,4 +1,7 @@
-function webadaGetHistory(req, resp){
+/**
+ * Gets the message history on the _webhook-adapter/received_ topic
+ */
+function WebAdaGetHistory(req, resp){
     ClearBlade.init({request:req})
     var msg = ClearBlade.Messaging();
     var unixTimeNano = new Date().getTime()

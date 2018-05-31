@@ -1,3 +1,4 @@
+
 {
     "config": {
         "cols": {
@@ -589,7 +590,7 @@
     },
     "description": null,
     "last_updated": "07 May 18 16:49 UTC",
-    "name": "webada Incoming Webhooks",
+    "name": "WebAdaIncomingWebhooks",
     "system_key": "c0c4d9ae0ba0cfc6b8f9b9a4be0d",
     "type": "custom_v2"
 }

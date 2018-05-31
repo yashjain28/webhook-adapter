@@ -1,11 +1,23 @@
+
+/**
+ * This method helps setup the environment for user to use this ipm with ease.
+ * @method SetupAssistant
+ * @param {string} platformURL 
+ * @param {Object} requestObj 
+ * @param {User[]} users
+ * @param {Object[]} devices
+ * @param {callback} callback 
+ */
 function SetupAssistant(platformURL, requestObj, users, devices, callback) {
     
-    if (platformURL === undefined || platformURL === null || platformURL === "") {
+    if (! platformURL) {
         callback(true, "Platform URL is required");
     }
     
     var roleNameToIdMap = {};
     
+    getSystemRoles();
+
     function getSystemRoles() {
         var options = {
             uri: platformURL + "/admin/user/" + requestObj.systemKey + "/roles",
@@ -133,7 +145,20 @@ function SetupAssistant(platformURL, requestObj, users, devices, callback) {
             callback(false);
         }
     }
-    
-    getSystemRoles();
-    
+   
 }
+
+/** 
+ * @typedef {Object} User
+ * @property {string} email
+ * @property {string} password 
+ * @property {string[]} roles
+ */
+
+/**
+* This callback is displayed as part of this Library.
+* @callback callback
+* @param {Object} err
+* @param {Object} resp
+*/
+

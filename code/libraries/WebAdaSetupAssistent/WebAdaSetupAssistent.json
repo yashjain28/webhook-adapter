@@ -2,7 +2,7 @@
     "api": "",
     "dependencies": "log,clearblade,http",
     "description": "",
-    "name": "webada_setup_assistant",
-    "version": 33,
+    "name": "WebAdaSetupAssistent",
+    "version": null,
     "visibility": "system"
 }
